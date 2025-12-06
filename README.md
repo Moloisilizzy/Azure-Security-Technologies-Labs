@@ -19,6 +19,7 @@ Two virtual machines (Test-FW01 and SRV-Work267) were deployed and accessed via 
 ## Clean upresources
 The resource group AZ500LAB08 was deleted using PoweShell:
 Remove-AZResourceGroup -Name "AZ500LAB08" -Force -A
+![task 7 screenshoot](azure%20firewall%20images/task%207.png)
 
 ## Summary
 This lab demonstrated deploying Azure Firewall to enforce centralized network security. By integrating it with route tables, DNS, and rule collections, consistent policies were aplied across subnets. Using an ARM template enabled automated and repeatable deployment of a secure Azure enviroment.
