@@ -1,2 +1,2 @@
 # Azure Security Technologies Labs
-Hands-on labs covering 
+This lab involved deploying and configuring Azure Firewall as a central security control for traffic moving between subnets in a virtual network. i worked through setting up network rules, application rules, and route tables integrations to enforce and monitor traffic flow with precision. i also upddated the original ARM template to align the deployment with the West Europe region, ensuring full compatibility and consistent resource provisioning. Overall, the exercise strenthned my understanding of how Azure Firewall delivers scalable, policy-driven protection across cloud enviroments
