@@ -4,7 +4,7 @@ This lab involved deploying and configuring Azure Firewall as a central security
 ## Task 1: Using a template to deploy the lab enviroment
 Deployed lab resources using the provided template.json, updating the region to East US. Setup included a virtual network with subnets, two sets VMs(Test-FW01 and SRV-Work267), and a route table.
 ![task 1 screenshoot](azure%20firewall%20images/task%201.png)
-![TASK 1 Tscreenshoot](azure%20firewall%20images/TASK%201%20T.png)
+![TASK 1 Tscreenshoot](azure%20firewall%20images/TASK1_T.png)
 ## Task 2: Deploy an Azure Firewall
 I deployed the Azure Firewall in the virtual network from Task 1. I used the Azure Portal to create the firewall with the provided settings, then verified the deployment by checking the AZ500LAB08 resource group and identifying the private IP address assigned to Test-FW01.
 ![TASK 2 screenshoot](azure%20firewall%20images/TASK%202.png)
