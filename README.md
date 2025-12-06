@@ -3,7 +3,6 @@
 This lab involved deploying and configuring Azure Firewall as a central security control for traffic moving between subnets in a virtual network. i worked through setting up network rules, application rules, and route tables integrations to enforce and monitor traffic flow with precision. i also upddated the original ARM template to align the deployment with the West Europe region, ensuring full compatibility and consistent resource provisioning. Overall, the exercise strenthned my understanding of how Azure Firewall delivers scalable, policy-driven protection across cloud enviroments
 ## Task 1: Using a template to deploy the lab enviroment
 Deployed lab resources using the provided template.json, updating the region to East US. Setup included a virtual network with subnets, two sets VMs(Test-FW01 and SRV-Work267), and a route table.
-![task 1 screenshoot](azure%20firewall%20images/task%201.png)
 ## Task 2: Deploy an Azure Firewall
 I deployed the Azure Firewall in the virtual network from Task 1. I used the Azure Portal to create the firewall with the provided settings, then verified the deployment by checking the AZ500LAB08 resource group and identifying the private IP address assigned to Test-FW01.
 ## Task 3: Created a default route
@@ -16,7 +15,7 @@ The network rule collection controlled outbound network access based on IP addre
 Navigated to AZ500LAB08, selected the SRV-Work virtual machine, opened Networking -> Network Interface, set DNS servers to Custom, added 209.244.0.3 and 209.244.0.4, saved, and waited for the update to complete.
 ## Task 7:Testing the firewall
 Two virtual machines (Test-FW01 and SRV-Work267) were deployed and accessed via RDP to validate outbound accessn and forewall rules. Testing confirmed allowed sites were reachable(e.g Bing), while Blocled sites(Microsoft) were inaccessible, showing the firewall worked as intended.
-
+![task 1 screenshoot](azure%20firewall%20images/task%201.png)
 ## Clean upresources
 The resource group AZ500LAB08 was deleted using PoweShell:
 Remove-AZResourceGroup -Name "AZ500LAB08" -Force -A
