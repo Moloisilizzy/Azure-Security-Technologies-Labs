@@ -7,7 +7,7 @@ Deployed lab resources using the provided template.json, updating the region to 
 ![TASK1 Tscreenshoot](azure%20firewall%20images/TASK1_T.png)
 ## Task 2: Deploy an Azure Firewall
 I deployed the Azure Firewall in the virtual network from Task 1. I used the Azure Portal to create the firewall with the provided settings, then verified the deployment by checking the AZ500LAB08 resource group and identifying the private IP address assigned to Test-FW01.
-![task 2 screenshoot](azure%20firewall%20images/task%202.png)
+![task2 screenshoot](azure%20firewall%20images/task%202.png)
 ![TASK 2 screenshoot](azure%20firewall%20images/TASK%202.png)
 ## Task 3: Created a default route
 I created a default route for the Workload-SN subnet to route outbound traffic throuth the Azure Firewall. I set up a new roye table, completed the deployment, and configured Firewall-Route entry to ensure all traffic passes through the firewall
