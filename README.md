@@ -23,7 +23,7 @@ Navigated to AZ500LAB08, selected the SRV-Work virtual machine, opened Networkin
 ![TASK 6 screenshoot](azure%20firewall%20images/TASK%206.png)
 ## Task 7:Testing the firewall
 Two virtual machines (Test-FW01 and SRV-Work267) were deployed and accessed via RDP to validate outbound accessn and forewall rules. Testing confirmed allowed sites were reachable(e.g Bing), while Blocled sites(Microsoft) were inaccessible, showing the firewall worked as intended.
-![task 1 screenshoot](azure%20firewall%20images/task%201.png)
+![task 7 screenshoot](azure%20firewall%20images/task7_D.png)
 ## Clean upresources
 The resource group AZ500LAB08 was deleted using PoweShell:
 Remove-AZResourceGroup -Name "AZ500LAB08" -Force -A
